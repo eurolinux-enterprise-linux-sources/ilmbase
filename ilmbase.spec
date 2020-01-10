@@ -1,7 +1,7 @@
 
 Name:	 ilmbase 
 Version: 1.0.3
-Release: 5%{?dist}
+Release: 7%{?dist}
 Summary: Abstraction/convenience libraries
 
 Group:	 System Environment/Libraries
@@ -117,6 +117,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.3-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.3-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.3-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
